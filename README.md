@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/ierodriguez/Project2.svg?branch=master)](https://travis-ci.com/ierodriguez/Project2)
 # Project 2 (***Stats Calculator***)
 ### Random Generator function
 
