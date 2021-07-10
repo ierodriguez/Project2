@@ -4,11 +4,12 @@ class Mode:
     def __init__(self):
         pass
 
+    @staticmethod
     def mode(self, values):
         counter = {}
         mode = []
-        highest_repeat = 0
-        for num in values:
+        highest_repeat = 0  # counter for highest repeat
+        for num in values:  # adds the values to a counter
             if num in counter.keys():
                 counter[num] += 1
                 if counter.get(num) > highest_repeat:
